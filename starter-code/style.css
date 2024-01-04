@@ -19,28 +19,37 @@
 }
 
 .welcomeContainer {
+    width: 1276px;
+    height: 737px;
+    border-radius: 0 0 20ps 0;
+}
+
+.welcomeText {
     width: 978px;
     height: 737px;
+    border-radius: 0 0 40px 0;
     background-color: #D6E6FE;
+
+    font-weight: inter;
+
+    /* border: 1px solid green; */
+
 }
-.welcomeLogo{
+.welcomeLogo {
     width: 64px;
     height: 64px;
     margin-top: 75px;
     margin-left: 116px;
 }
-
-.welcomeText {
-    width: 465px;
-    height: 270px;
-    font-weight: inter;
-    
-}
-.welcomeSpan{
+.welcomeSpan {
     width: 465px;
     height: 96px;
+    margin-top: 267px;
+    margin-left: 116px;
     font-size: 18.5px;
     line-height: 24px;
-    text-align: left;
     color: var(--gray);
+    /* border: 1px solid red; */
+
+
 }
