@@ -1,0 +1,46 @@
+/* :root {
+    --darkBlue: #345FF6;
+    --darkGray: #253347;
+    --gray: #5E6E85;
+    --lightGray: #D8E2E7;
+    --white: #FFFFFF;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+}
+
+.welcomeContainer {
+    width: 978px;
+    height: 737px;
+    background-color: #D6E6FE;
+}
+.welcomeLogo{
+    width: 64px;
+    height: 64px;
+    margin-top: 75px;
+    margin-left: 116px;
+}
+
+.welcomeText {
+    width: 465px;
+    height: 270px;
+    font-weight: inter;
+    
+}
+.welcomeSpan{
+    width: 465px;
+    height: 96px;
+    font-size: 18.5px;
+    line-height: 24px;
+    text-align: left;
+    color: var(--gray);
+} */
