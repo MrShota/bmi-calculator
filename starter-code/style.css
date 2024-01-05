@@ -55,5 +55,55 @@
     position: absolute;
     margin-top: 167px;
     margin-left: 712px;
+    padding: 32px;
     border: 1px solid red;
+}
+
+.forRadioBtn {
+    height: 30px;
+    font-size: 30px;
+}
+
+input[type=radio] {
+    width: 10%;
+    height: 40px;
+}
+
+#metric {
+    margin-left: 2vw;
+    margin-top: 50px;
+    font-style: 120px;
+}
+
+#imperial {
+    margin-left: 10vw;
+}
+
+.forMetricInputs {
+    width: 100%;
+}
+
+input[type=number] {
+    width: 238px;
+    height: 80px;
+    margin-top: 100px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.height:before {
+    content: "Height";
+}
+.calculatorContainerText{
+width: 500px;
+height: 130px;
+color: var(--lightGray);
+background-color: #345FF6;
+border-radius: 8px 50px 50px 8px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 15px;
+line-height: 40px;
+margin-top: 40px;
 }
