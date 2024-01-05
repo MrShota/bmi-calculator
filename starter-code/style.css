@@ -52,15 +52,17 @@
 .calculatorContainer {
     width: 564px;
     height: 484px;
-    position: absolute;
-    margin-top: 167px;
+    margin-top: -600px;
     margin-left: 712px;
     padding: 32px;
-    border: 1px solid red;
+    border-radius: 16px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .forRadioBtn {
-    height: 30px;
     font-size: 30px;
 }
 
@@ -70,40 +72,43 @@ input[type=radio] {
 }
 
 #metric {
-    margin-left: 2vw;
-    margin-top: 50px;
+    margin-left: 1vw;
     font-style: 120px;
 }
 
 #imperial {
-    margin-left: 10vw;
+    margin-left: 6vw;
 }
 
-.forMetricInputs {
-    width: 100%;
+.heightLabel::before {
+content: '...';
 }
 
 input[type=number] {
     width: 238px;
-    height: 80px;
-    margin-top: 100px;
+    height: 65px;
     border: 1px solid gray;
-    border-radius: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    padding-left: 10px;
 }
 
-.height:before {
-    content: "Height";
+#heightLabel::after{
+    content: 'ads';
+    display: block;
 }
-.calculatorContainerText{
-width: 500px;
-height: 130px;
-color: var(--lightGray);
-background-color: #345FF6;
-border-radius: 8px 50px 50px 8px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding-left: 15px;
-line-height: 40px;
-margin-top: 40px;
+
+
+.calculatorContainerText {
+    width: 500px;
+    height: 130px;
+    color: var(--lightGray);
+    background-color: #345FF6;
+    border-radius: 8px 60px 60px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    line-height: 40px;
+    margin-top: 40px;
 }
