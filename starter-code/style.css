@@ -81,7 +81,7 @@ input[type=radio] {
 }
 
 .heightLabel::before {
-content: '...';
+    content: '...';
 }
 
 input[type=number] {
@@ -93,11 +93,10 @@ input[type=number] {
     padding-left: 10px;
 }
 
-#heightLabel::after{
+#heightLabel::after {
     content: 'ads';
     display: block;
 }
-
 
 .calculatorContainerText {
     width: 500px;
@@ -111,4 +110,31 @@ input[type=number] {
     padding-left: 25px;
     line-height: 40px;
     margin-top: 40px;
+}
+
+/* ---------------------   Section-2 ----------------------- */
+
+.section-2 {
+    width: 1160px;
+    height: 533px;
+    flex-shrink: 0;
+    display: flex;
+    margin: 65px auto;
+}
+
+.section2-img,
+.section2-txt {
+    width: 50%;
+    height: 100%;
+}
+
+.image-man-eating {
+    width: 100%;
+    height: 100%;
+
+}
+
+.section2-txt {
+    display: flex;
+    padding: 30% 7.5% 2%;
 }
